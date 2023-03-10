@@ -1,7 +1,7 @@
 {
   "name": "@hapi/good",
   "description": "Server and process monitoring plugin",
-  "version": "9.0.1",
+  "version": "9.0.1-siren-1-fix-memory-leak",
   "repository": "git://github.com/hapijs/good",
   "main": "lib/index.js",
   "files": [
@@ -19,7 +19,7 @@
     "@hapi/hoek": "9.x.x",
     "@hapi/oppsy": "3.x.x",
     "@hapi/validate": "1.x.x",
-    "pumpify": "2.x.x"
+    "pumpify": "github:sirensolutions/pumpify#2.0.1-siren-1-force-destroy"
   },
   "devDependencies": {
     "@hapi/code": "8.x.x",
